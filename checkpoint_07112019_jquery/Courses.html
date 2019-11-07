@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/Style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./res/section2GMCLogo.png" alt="le logo de gomycode" height=60px width=60px/>
+        </div>
+      
+        <nav>
+            <ul>
+                <li> <a  href="./index.html">Home </a>  </li>
+                <li> <a href="./courses.html">Courses</a></li>              
+                <li> <a  href="./contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+   
+    </header>
+    <div class="imagecourses">
+    <h1 class="heading"> 
+       Courses
+    </h1>
+</div>
+<div class="allcours" align="center">
+    <div class="cours1 cc" height=30px width=50px>
+                <button id="unc" class="buttonstyle">View more</button>
+    </div>
+    <div class="cours2 cc">
+                <button  id="deuxc" class="buttonstyle">View more</button>
+    </div>  
+    <div class="cours3 cc">
+                 <button  id="troisc" class="buttonstyle">View more</button>
+    </div> 
+</div> 
+<div class="allcours" align="center">
+    <div  class="cours4 cc" height=30px width=50px>
+                    <button  id="qutrec" class="buttonstyle">View more</button>
+    </div>
+    <div  class="cours5 cc">
+                    <button  id="cinqc" class="buttonstyle">View more</button>
+    </div>  
+    <div class="cours6 cc">
+                     <button  id="sixc" class="buttonstyle">View more</button>
+    </div> 
+</div>
+<div class="allcours" align="center">
+    <div  class="cours7 cc" height=30px width=50px>
+                        <button  id="septc" class="buttonstyle">View more</button>
+    </div>
+    <div  class="cours8 cc">
+                        <button  id="huitc" class="buttonstyle">View more</button>
+    </div>  
+    <div  class="cours9 cc">
+                         <button  id="neufc" class="buttonstyle">View more</button>
+    </div> 
+</div>
+<center>
+<div>
+    <h2>
+        Feedback
+    </h2>
+</div>
+<div>
+ <button onclick="makeBold()">B</button>
+<button onclick="makeItalic()">i</button>
+<button onclick="makeUnderline()">Underline</button>
+<select id="size" onchange="changeSize()">
+<option>20px</option>
+<option>30px</option>
+<option>40px</option>
+
+</select>
+<select id="fontfam" onchange="changefontfam()">
+    <option>Arial</option>
+    <option>Verdana</option>
+    <option>Geneva</option>
+    
+</select>   
+</div>
+<br>
+<div><textarea id="mytext" cols="50" rows="5">hello everybody</textarea></div>
+<br>
+<br>
+</center>
+
+</body>
+<script src="./js/main.js"></script>
+</html>
+                <!--<p id="text">  This is GoMyCode Track.
+                    Each track has its own goal.
+                    By adopting this track, you chose your own goal. </p> -->
