@@ -7,24 +7,27 @@ if (getId.style.fontWeight=="bold"){
 
     getId.style.fontWeight="normal";
 }
+    else {
 getId.style.fontWeight="bold";
-}
+}}
 
 
 function makeItalic() {   
-if (getId.style.fontStyle=="Italic"){
+if (getId.style.fontStyle=="italic"){
 
     getId.style.fontStyle="normal";
 }
-getId.style.fontStyle="Italic";
-}
+    else{
+getId.style.fontStyle="italic";
+}}
 function makeUnderline() {   
 if (getId.style.textDecoration=="underline"){
 
     getId.style.textDecoration="";
 }
+    else {
 getId.style.textDecoration="underline";
-}
+}}
 
 function changeSize() {
     getId.style.fontSize=getSize.value;
