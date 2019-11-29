@@ -55,7 +55,7 @@ $(document).ready(function(){
         $("#quatrec").toggle();
     });  
     $(".cours5").mouseenter(function(){
-        $("cinqc").toggle();
+        $("#cinqc").toggle();
     }); 
     $(".cours6").mouseenter(function(){
         $("#sixc").toggle();
@@ -69,10 +69,3 @@ $(document).ready(function(){
     $(".cours9").mouseenter(function(){
         $("#neufc").toggle();
     });
-
-    $(".buttonstyle").click(function(){
-        $(this).hide ("slow", function() { alert("This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal")});
-    });
-     
- 
-
