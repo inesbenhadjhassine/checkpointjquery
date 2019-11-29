@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/Style.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
     <header>
@@ -31,38 +37,38 @@
 </div>
 <div class="allcours" align="center">
     <div class="cours1 cc" height=30px width=50px>
-                <button id="unc" class="buttonstyle">View more</button>
+                <button id="unc" class="buttonstyle"><a href="#ex1" rel="modal:open">View more</a></button>
     </div>
     <div class="cours2 cc">
-                <button  id="deuxc" class="buttonstyle">View more</button>
+                <button  id="deuxc" class="buttonstyle"><a href="#ex2" rel="modal:open">View more</a></button>
     </div>  
     <div class="cours3 cc">
-                 <button  id="troisc" class="buttonstyle">View more</button>
+                 <button  id="troisc" class="buttonstyle"><a href="#ex3" rel="modal:open">View more</a></button>
     </div> 
 </div> 
 <div class="allcours" align="center">
     <div  class="cours4 cc" height=30px width=50px>
-                    <button  id="qutrec" class="buttonstyle">View more</button>
+                    <button  id="quatrec" class="buttonstyle"><a href="#ex4" rel="modal:open">View more</a></button>
     </div>
     <div  class="cours5 cc">
-                    <button  id="cinqc" class="buttonstyle">View more</button>
+                    <button  id="cinqc" class="buttonstyle"><a href="#ex5" rel="modal:open">View more</a></button>
     </div>  
     <div class="cours6 cc">
-                     <button  id="sixc" class="buttonstyle">View more</button>
+                     <button  id="sixc" class="buttonstyle"><a href="#ex6" rel="modal:open">View more</a></button>
     </div> 
 </div>
 <div class="allcours" align="center">
     <div  class="cours7 cc" height=30px width=50px>
-                        <button  id="septc" class="buttonstyle">View more</button>
+                        <button  id="septc" class="buttonstyle"><a href="#ex7" rel="modal:open">View more</a></button>
     </div>
     <div  class="cours8 cc">
-                        <button  id="huitc" class="buttonstyle">View more</button>
+                        <button  id="huitc" class="buttonstyle"><a href="#ex8" rel="modal:open">View more</a></button>
     </div>  
     <div  class="cours9 cc">
-                         <button  id="neufc" class="buttonstyle">View more</button>
+                         <button  id="neufc" class="buttonstyle"><a href="#ex9" rel="modal:open">View more</a></button>
     </div> 
 </div>
-<center>
+<div align="center">
 <div>
     <h2>
         Feedback
@@ -89,11 +95,45 @@
 <div><textarea id="mytext" cols="50" rows="5">hello everybody</textarea></div>
 <br>
 <br>
-</center>
+</div>
 
+   <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex2" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex3" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex4" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex5" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex6" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex7" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex8" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
+  <div id="ex9" class="modal">
+    <p>This is GoMyCode Track. Each track has its own goal. By adopting this track, you chose your own goal</p>
+  <a href="#" rel="modal:close">Close</a>
+  </div>
 </body>
 <script src="./js/main.js"></script>
 </html>
-                <!--<p id="text">  This is GoMyCode Track.
-                    Each track has its own goal.
-                    By adopting this track, you chose your own goal. </p> -->
