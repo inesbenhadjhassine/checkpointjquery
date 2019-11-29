@@ -35,8 +35,10 @@ header  ul li a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: transparent;
     border-color: transparent;
-
-
+}
+a{
+    text-decoration: none;
+    color:black;
 }
 body{
     background-image:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
@@ -207,7 +209,7 @@ border-radius: 4px;
 user-select: none;
 }
 .btn-primary{
-    color:#fff;
+color:#fff;
 background-color:#337ab7;
 border-color:#2e6da4;
 }
