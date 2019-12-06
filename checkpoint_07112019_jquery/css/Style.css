@@ -67,6 +67,9 @@ h1, h2{
     margin-top:30px;
     color:white;
 }
+h4 {
+    color: white;
+}
 .cours1{
 color:white;
 background-image:url('../res/cours1.png');
